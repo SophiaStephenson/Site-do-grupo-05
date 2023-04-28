@@ -45,3 +45,9 @@ header{
 .titulo-integrantes{
     padding-left: 50px;
 }
+
+
+footer {
+    background-color: #770f08;
+    margin: 30px;
+}
