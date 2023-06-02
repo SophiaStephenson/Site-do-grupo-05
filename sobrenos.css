@@ -1,6 +1,6 @@
 .livros {
     width: 15%;
     height: 15%;
-    display: flex;
+    display: block;
     margin-right: 30px;
 }
