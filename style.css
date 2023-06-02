@@ -52,19 +52,23 @@ footer {
     background-color: #770f08;
     color: white;
 }
+
 .formulario{
     width: 400px;
     padding: 30px;
     border:1px solid #ccc;
 }
+
 .formulario p{
     width: 100%;
     font-size: 1.5em;
 }
+
 .field{
     width: 100%;
     margin: 15px 0;
 }
+
 .field label, 
 .field span{
     padding-left: 10px;
@@ -72,10 +76,12 @@ footer {
     display: block;
     width: 100%;
 }
+
 .radiobox label{
     width: auto;
     display: inline-block;
 }
+
 input[type=text],
 input[type=email],
 textarea{
@@ -90,12 +96,14 @@ textarea{
 input#nao{
     margin-left: 30px;
 }
+
 textarea{
     line-height: 20px;
     padding: 10px;
     height: 90px;
     resize: none;
 }
+
 input[type=submit]{
     display: block;
     background-color: #ccc;
@@ -108,3 +116,4 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
+
