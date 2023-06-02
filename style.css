@@ -137,4 +137,5 @@ input[type=submit]{
 .botaozinho{
     color: white;
     padding: 15px;
+    display: flex;
 }
