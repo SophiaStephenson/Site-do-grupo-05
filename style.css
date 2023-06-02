@@ -121,5 +121,6 @@ input[type=submit]{
 {
     display: flex;
     color: white;
-    
+   text-align: center;
+   padding: 30px;
 }
