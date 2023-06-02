@@ -138,4 +138,5 @@ input[type=submit]{
     color: white;
     padding: 15px;
     display: flex;
+    border-radius: 10px;
 }
