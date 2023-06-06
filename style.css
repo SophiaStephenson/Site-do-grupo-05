@@ -28,13 +28,15 @@ header{
     height: 07%;
 }
 
-.botao a{
+.list {
     color: white;
+}
+
+.botao a{
     font-size: 15px;
 }
 
 .botaozinho{
-    color: white;
     list-style: none;
     display: flex;
     padding: 7px;
