@@ -94,6 +94,8 @@ footer {
 }
 
 .formulario p{
+    display: flex;
+    align-items: center;
     width: 100%;
     font-size: 1.5em;
 }
