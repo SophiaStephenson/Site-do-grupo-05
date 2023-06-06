@@ -14,12 +14,10 @@ header{
 .cep {
     width: 08%;
     height: 08%;
-    margin-right: 30px;
 }
 
 .PROJ {
     display: flex; 
-    padding: 50px;
 } 
 
 .livros {
