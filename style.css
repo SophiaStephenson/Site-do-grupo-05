@@ -28,12 +28,8 @@ header{
     height: 07%;
 }
 
-.list {
+.list__a {
     color: white;
-}
-
-.botao a{
-    font-size: 15px;
 }
 
 .botaozinho{
