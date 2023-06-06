@@ -16,6 +16,11 @@ header{
     align-items: center;
 }
 
+.header_img_text{
+    display: flex;
+    align-items: center;
+}
+
 .cep {
     width: 08%;
     height: 08%;
