@@ -21,11 +21,17 @@ header{
 .header_img_text{
     display: flex;
     align-items: center;
+    margin-left: 2em;
+    gap: 10px;
 }
 
 .cep {
     width: 07%;
     height: 07%;
+}
+
+.menu {
+    margin-right: 10px;
 }
 
 .list__a {
