@@ -14,6 +14,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2em;
 }
 
 .header_img_text{
@@ -22,19 +23,22 @@ header{
 }
 
 .cep {
-    width: 08%;
-    height: 08%;
+    width: 06%;
+    height: 06%;
 }
 
 .botao a{
     color: white;
-     text-decoration: none;
-     list-style: none;
-     font-size: 15px;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .botaozinho{
     color: white;
+    list-style: none;
+    display: flex;
+    padding: 7px;
+    border-radius: 4px;
 }
 
 .PROJ {
