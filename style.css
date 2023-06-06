@@ -5,7 +5,6 @@
 }
 
 body{ 
-    background-color: white; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -51,7 +50,10 @@ header{
 }
 
 .PROJ {
-    display: flex; 
+    display: flex;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
 } 
 
 .livros {
