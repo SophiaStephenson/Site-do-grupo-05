@@ -30,13 +30,13 @@ header{
 
 .list__a {
     color: white;
+    padding: 7px;
+    border-radius: 4px;
 }
 
 .botaozinho{
     list-style: none;
     display: flex;
-    padding: 7px;
-    border-radius: 4px;
 }
 
 .PROJ {
