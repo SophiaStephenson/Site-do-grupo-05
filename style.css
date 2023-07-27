@@ -199,15 +199,15 @@ input[type=submit] {
 }
 
 .slider li:nth-child(2) label {
-    left: 20px;
+    left: 50px;
 }
 
 .slider li:nth-child(3) label {
-    left: 30px;
+    left: 90px;
 }
 
 .slider li:nth-child(4) label {
-    left: 40px;
+    left: 130px;
 }
 
 .slider img {
