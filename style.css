@@ -207,3 +207,6 @@ input[type=submit]{
         visibility: visible;
         z-index: 10;
     }
+    .foto {
+        width: 60%;
+    }
