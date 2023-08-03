@@ -242,9 +242,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 950px) { 
-    .header {
-        display: flex;
+    .header{
+        display: block;
+        text-align: center;
+        padding: 24px 0;
+    } 
     
-    }
-}
 
