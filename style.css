@@ -240,3 +240,11 @@ input[type=submit] {
     grid-template-columns: 50% 50%;
 }
 }
+
+@media screen and (max-width: 950px) { 
+    .header {
+        display: block;
+    
+    }
+}
+
