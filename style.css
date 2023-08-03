@@ -65,7 +65,8 @@ header {
 
 .integrantes {
     padding: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .foto-integrante {
@@ -227,4 +228,15 @@ input[type=submit] {
 
 .foto {
     width: 50%;
+}
+
+@media screen and  (max-width: 1313px) { 
+   
+    .div-integrantes {
+        text-align: center;
+    }
+.integrantes{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 }
