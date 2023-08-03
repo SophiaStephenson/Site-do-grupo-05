@@ -11,10 +11,11 @@ body {
 header {
     background-color: #770f08;
     color: white;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+
 }
 
 .header_img_text {
