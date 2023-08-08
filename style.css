@@ -54,7 +54,7 @@ header {
     display: flex;
     width: auto;
     height: auto;
-    margin: 2em auto;
+    margin: 2em 5em;
 }
 
 .livros {
