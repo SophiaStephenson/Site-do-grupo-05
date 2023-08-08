@@ -38,6 +38,7 @@
     .foto-integrante {
         width: auto;
         height: 120px;
+        justify-items: center;
     }
     .div-integrantes {
         text-align: justify;
