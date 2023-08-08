@@ -34,10 +34,9 @@
         display: grid;
         grid-template-columns: 50% 50%;
         justify-items: center;
-        text-align: center;
-        width: auto;
     }
     .foto-integrante {
+        width: auto;
         height: 120px;
         display: grid;
         justify-items: center;
