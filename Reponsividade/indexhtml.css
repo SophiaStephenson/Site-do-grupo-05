@@ -21,8 +21,11 @@
     .livros {
         display: none;
     }
-    .img_slider{
-        width: auto;
+    .slider img {
+        margin: auto;
+        height: 50%;
+        width: 50%;
+        vertical-align: top;
     }
 }
 
