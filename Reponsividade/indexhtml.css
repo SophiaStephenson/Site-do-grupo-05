@@ -10,4 +10,7 @@
         width: 45px;
         height: 45px;
     }
+    .list__a {
+        font-size: 75%;
+    }
 }
