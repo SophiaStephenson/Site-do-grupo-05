@@ -1,4 +1,8 @@
 @media screen and (min-width: 394px) and (max-width: 720px) {
+    header {
+        padding: 5px;
+        width: auto;
+    }
     .headercep {
         display: none;
     }
