@@ -230,22 +230,3 @@ input[type=submit] {
     width: 50%;
 }
 
-@media screen and  (max-width: 1313px) { 
-   
-    .div-integrantes {
-        text-align: center;
-    }
-.integrantes{ 
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-}
-
-@media screen and (max-width: 950px) { 
-    .header{
-        display: block;
-        text-align: center;
-        padding: 24px 0;
-    } 
-    
-
