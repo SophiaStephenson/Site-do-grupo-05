@@ -28,6 +28,7 @@
         height: 100%;
         width: 100%;
     }
+
     .integrantes {
         padding: 20px;
         display: grid;
@@ -35,13 +36,10 @@
         justify-items: center;
     }
     .foto-integrante {
-        width: 120px;
+        width: auto;
         height: 120px;
-        display: flex;
-        align-items: center;
     }
     .div-integrantes {
-        margin: 5px;
         text-align: justify;
     }
 }
