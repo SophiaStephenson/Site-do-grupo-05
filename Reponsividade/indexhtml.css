@@ -33,21 +33,11 @@
         padding: 20px;
         display: grid;
         grid-template-columns: 50% 50%;
-        justify-items: center;
     }
     .foto-integrante {
         width: auto;
         height: 120px;
-        display: grid;
-        justify-items: center;
     }
-    .div-integrantes {
-        text-align: justify;
-    }
-    .integrantes_nome {
-        text-align: center;
-    }
-
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
