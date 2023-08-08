@@ -2,7 +2,6 @@
 
     header {
         padding: 5px;
-        width: auto;
     }
     .headercep {
         display: none;
@@ -10,12 +9,5 @@
     .cep {
         width: 45px;
         height: 45px;
-    }
-    .menu {
-        width: auto;
-        height: auto;
-    }
-    .list__a {
-        padding: 50%;
     }
 }
