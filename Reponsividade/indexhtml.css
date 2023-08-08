@@ -1,8 +1,9 @@
 @media screen and (min-width: 394px) and (max-width: 720px) {
-
+    * {
+        font-size: 75%;
+    }
     header {
         padding: 5px;
-        font-size: 75%;
     }
     .headercep {
         display: none;

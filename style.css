@@ -52,7 +52,7 @@ header {
 
 .PROJ {
     display: flex;
-    width: 950px;
+    width: auto;
     height: auto;
     margin: 2em auto;
 }
