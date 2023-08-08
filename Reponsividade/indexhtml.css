@@ -14,7 +14,7 @@
         width: auto;
         height: auto;
     }
-    .list {
-        width: 100vw;
+    .list__a {
+        width: 100%;
     }
 }
