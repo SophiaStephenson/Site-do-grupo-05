@@ -48,10 +48,6 @@
     .div-integrantes {
         text-align: center;
     }
-    .integrantes_nt {
-        text-align: justify;
-        margin: 7px;
-    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
