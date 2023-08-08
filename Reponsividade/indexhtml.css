@@ -40,13 +40,10 @@
     }
     .div-integrantes {
         margin-right: 0;
-        justify-items: center;
+        text-align: center;
     }
     .integrantes_md {
         margin: 25px;
-    }
-    .div-integrantes {
-        text-align: center;
     }
 }
 
