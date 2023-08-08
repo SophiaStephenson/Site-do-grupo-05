@@ -25,10 +25,6 @@ header {
     font-size: 60%;
 }
 
-.headercep {
-    min-width: 930px;
-}
-
 .cep {
     width: 07%;
     height: 07%;
