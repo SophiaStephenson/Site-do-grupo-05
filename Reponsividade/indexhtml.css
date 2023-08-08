@@ -37,8 +37,8 @@
         text-align: center;
     }
     .foto-integrante {
-        width: auto;
         height: 120px;
+        display: grid;
         justify-items: center;
     }
     .div-integrantes {
