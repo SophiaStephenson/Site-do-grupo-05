@@ -30,7 +30,9 @@ header {
     height: 50px;
 }
 
-
+.menu {
+    margin-right: 2em;
+}
 
 .list__a {
     color: white;
