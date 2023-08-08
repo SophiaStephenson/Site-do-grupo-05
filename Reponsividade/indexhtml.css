@@ -14,4 +14,7 @@
         width: auto;
         height: auto;
     }
+    .list {
+        width: 100%;
+    }
 }
