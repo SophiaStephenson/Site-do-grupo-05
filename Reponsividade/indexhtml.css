@@ -21,6 +21,9 @@
     .livros {
         display: none;
     }
+    .img_slider{
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
