@@ -13,4 +13,7 @@
     .list__a {
         font-size: 75%;
     }
+    .header_img_text {
+        margin-left: 5px;
+    }
 }
