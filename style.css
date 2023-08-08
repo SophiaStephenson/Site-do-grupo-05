@@ -23,6 +23,7 @@ header {
     margin-left: 2em;
     gap: 10px;
     font-size: 60%;
+    min-width: 930px;
 }
 
 .cep {
