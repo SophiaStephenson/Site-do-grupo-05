@@ -20,9 +20,10 @@
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
     header {
-        height: 35px;
+        height: 45px;
     }
     .header_img_text {
         display: none;
     }
+    .menu {text-align: center;}
 }
