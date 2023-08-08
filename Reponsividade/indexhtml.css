@@ -22,8 +22,8 @@
         display: none;
     }
     .slider {
-        display: block;
-        text-align: center;
+        display: flex;
+        justify-content: center;
         height: 293px;
         width: 600px;
         margin: auto;
