@@ -164,7 +164,7 @@ input[type=submit] {
 
 .slider {
     display: block;
-    height: 293px;
+    height: 100%;
     width: 600px;
     margin: auto;
     margin-top: 20px;
