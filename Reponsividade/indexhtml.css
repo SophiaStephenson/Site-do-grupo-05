@@ -22,11 +22,12 @@
         display: none;
     }
     .slider {
-        display: flex;
-        justify-content: center;
-        height: 200px;
-        width: auto;
+        display: block;
+        height: 293px;
+        width: 300px;
         margin: auto;
+        margin-top: 20px;
+        position: relative;
     }
     .slider img {
         height: 50%;
