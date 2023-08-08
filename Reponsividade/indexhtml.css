@@ -33,6 +33,7 @@
         padding: 20px;
         display: grid;
         grid-template-columns: 50% 50%;
+        margin: 25px;
     }
     .foto-integrante {
         width: auto;
@@ -41,9 +42,6 @@
     .div-integrantes {
         margin-right: 0;
         text-align: center;
-    }
-    .integrantes_md {
-        margin: 25px;
     }
 }
 
