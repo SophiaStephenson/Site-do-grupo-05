@@ -19,6 +19,9 @@
 }
 
 @media screen and (min-width: 394px) and (max-width: 720px) {
+    header {
+        height: 8%;
+    }
     .header_img_text {
         display: none;
     }
