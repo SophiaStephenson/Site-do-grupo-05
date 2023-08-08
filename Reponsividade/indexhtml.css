@@ -1,3 +1,13 @@
 @media screen and (min-width: 394px) and (max-width: 720px) {
-    
+    .headercep {
+        display: none;
+    }
+    .cep {
+        width: 30px;
+        height: 30px;
+    }
+    .menu {
+        width: auto;
+        height: auto;
+    }
 }
