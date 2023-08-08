@@ -31,10 +31,10 @@
 
     .integrantes {
         padding: 20px;
-        display: flex;
-        flex-direction: column;
-        word-break: normal;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        text-align: center;
     }
     .foto-integrante {
         width: auto;
