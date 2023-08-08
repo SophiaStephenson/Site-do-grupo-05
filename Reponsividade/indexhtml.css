@@ -32,6 +32,7 @@
     .integrantes {
         padding: 20px;
         display: flex;
+        flex-direction: column;
         word-break: normal;
         justify-content: center;
     }
