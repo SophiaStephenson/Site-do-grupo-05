@@ -24,7 +24,7 @@
     .slider {
         display: flex;
         justify-content: center;
-        height: auto;
+        height: 100%;
         width: auto;
         margin: auto;
     }
