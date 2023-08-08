@@ -2,6 +2,7 @@
 
     header {
         padding: 5px;
+        font-size: 75%;
     }
     .headercep {
         display: none;
@@ -10,11 +11,11 @@
         width: 45px;
         height: 45px;
     }
-    .list__a {
-        font-size: 75%;
-    }
     .header_img_text {
         margin-left: 5px;
+    }
+    .proj {
+        width: auto;
     }
 }
 
@@ -34,5 +35,4 @@
         text-align: center;
         margin: 0;
     }
-
 }
