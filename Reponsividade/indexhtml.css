@@ -46,6 +46,9 @@
     .integrantes_md {
         margin: 25px 0;
     }
+    .integrantes_text {
+        text-align: justify;
+    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
