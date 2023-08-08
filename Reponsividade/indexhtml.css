@@ -25,7 +25,7 @@
         display: flex;
         justify-content: center;
         height: 293px;
-        width: 600px;
+        width: auto;
         margin: auto;
     }
     .slider img {
