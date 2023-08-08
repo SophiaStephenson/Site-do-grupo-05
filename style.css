@@ -15,8 +15,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-
-
 }
 
 .header_img_text {
@@ -24,6 +22,7 @@ header {
     align-items: center;
     margin-left: 2em;
     gap: 10px;
+    font-size: 24px;
 }
 
 .cep {
