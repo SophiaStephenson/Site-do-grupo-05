@@ -15,6 +15,9 @@
     .list__a {
         font-size: 75%;
     }
+    .PROJ {
+        margin: 1em 2em;
+    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
