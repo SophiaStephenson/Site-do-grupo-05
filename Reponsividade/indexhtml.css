@@ -38,6 +38,13 @@
         width: auto;
         height: 120px;
     }
+    .div-integrantes {
+        margin-right: 0;
+        justify-items: center;
+    }
+    .integrantes_md {
+        margin: 25px;
+    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
