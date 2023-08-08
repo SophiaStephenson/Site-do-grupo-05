@@ -24,7 +24,7 @@
     .slider {
         display: block;
         height: 293px;
-        width: 500px;
+        width: auto;
         margin: auto;
         margin-top: 20px;
         position: relative;
