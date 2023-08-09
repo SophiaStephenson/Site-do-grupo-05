@@ -36,13 +36,15 @@
     .foto-integrante {
         width: auto;
         height: 120px;
+        margin: 5px;
     }
     .integrantes_text {
         text-align: justify;
+        margin: 5px;
     }
     .div-integrantes {
         text-align: center;
-        margin: 15px;
+        margin: 10px;
     }
 }
 
