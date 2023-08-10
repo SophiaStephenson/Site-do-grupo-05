@@ -90,8 +90,8 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .foto-integrante {
-        width: auto;
-        height: 150px;
+        width: 220px;
+        height: 220px;
         margin: 6px;
     }
     .integrantes_text {
