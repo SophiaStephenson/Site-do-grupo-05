@@ -43,7 +43,8 @@
         width: 500px;
     }
     .enquadramento {
-        text-align: center;
+        display: grid;
+        justify-items: center;
     }
 }
 
