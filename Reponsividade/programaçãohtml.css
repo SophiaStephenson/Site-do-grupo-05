@@ -18,9 +18,6 @@
     footer {
         font-size: 11px;
     }
-    h1 {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
@@ -44,6 +41,9 @@
 @media screen and (min-width: 720px){
     .pesquisa_programacao {
         width: 500px;
+    }
+    .enquadramento {
+        text-align: center;
     }
 }
 
