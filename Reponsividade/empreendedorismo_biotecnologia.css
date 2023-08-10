@@ -20,3 +20,20 @@
     }
 }
 
+@media screen and (min-width: 394px) and (max-width: 466px) {
+    header {
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .header_img_text {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+    }
+}
