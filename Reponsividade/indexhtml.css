@@ -46,6 +46,9 @@
         text-align: center;
         margin: 10px;
     }
+    .formulario {
+        width: 200px;   
+    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
