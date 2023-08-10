@@ -47,7 +47,8 @@
         margin: 10px;
     }
     .formulario {
-        width: 250px;   
+        width: 250px;  
+        margin-bottom: 2em;
     }
 }
 
