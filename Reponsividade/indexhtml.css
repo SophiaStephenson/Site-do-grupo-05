@@ -82,3 +82,24 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 720px) and (max-width: 1326px) {
+    .integrantes {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .foto-integrante {
+        width: auto;
+        height: 120px;
+        margin: 6px;
+    }
+    .integrantes_text {
+        text-align: justify;
+        margin: 6px;
+    }
+    .div-integrantes {
+        text-align: center;
+        margin: 10px;
+    }
+}
