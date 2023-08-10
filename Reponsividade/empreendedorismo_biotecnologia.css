@@ -15,9 +15,6 @@
     .list__a {
         font-size: 78%
     }
-    footer {
-        font-size: 11px;
-    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
@@ -28,9 +25,6 @@
         text-align: center;
     }
     .header_img_text {
-        display: none;
-    }
-    .cep {
         display: none;
     }
     .menu {
