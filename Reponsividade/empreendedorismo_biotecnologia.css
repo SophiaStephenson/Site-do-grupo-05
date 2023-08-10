@@ -19,16 +19,12 @@
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
     header {
-        width: auto;
         height: 45px;
         display: flex;
         justify-content: center;
         text-align: center;
     }
-    .header_img_text {
-        display: none;
-    }
-    .cep {
+    .header_img_text .cep {
         display: none;
     }
     .menu {
@@ -36,5 +32,6 @@
         justify-content: center;
         text-align: center;
         margin: 0;
+        width: auto;
     }
 }
