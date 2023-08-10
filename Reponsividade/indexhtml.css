@@ -50,6 +50,9 @@
         width: 250px;  
         margin-bottom: 2em;
     }
+    .rodape {
+        font-size: auto;
+    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
