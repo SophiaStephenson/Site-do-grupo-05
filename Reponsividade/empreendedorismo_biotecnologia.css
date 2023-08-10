@@ -24,7 +24,7 @@
         justify-content: center;
         text-align: center;
     }
-    .header_img_text .cep {
+    .header_img_text {
         display: none;
     }
     .menu {
@@ -32,6 +32,5 @@
         justify-content: center;
         text-align: center;
         margin: 0;
-        width: auto;
     }
 }
