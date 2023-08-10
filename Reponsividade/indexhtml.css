@@ -87,7 +87,7 @@
     .integrantes {
         padding: 20px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .foto-integrante {
         width: auto;
@@ -101,5 +101,6 @@
     .div-integrantes {
         text-align: center;
         margin: 10px;
+        width: 65%;
     }
 }
