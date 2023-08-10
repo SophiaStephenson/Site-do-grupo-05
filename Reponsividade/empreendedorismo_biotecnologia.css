@@ -19,6 +19,7 @@
 
 @media screen and (min-width: 394px) and (max-width: 466px) {
     header {
+        width: auto;
         height: 45px;
         display: flex;
         justify-content: center;
