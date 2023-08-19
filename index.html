@@ -33,6 +33,37 @@
     <title>Pesquisa com Código de Barras</title>
 </head>
 
+    <h1>Pesquisa por Palavras</h1>
+    <form action="#" method="get">
+        <label for="search">Digite as palavras-chave:</label>
+        <input type="text" id="search" name="search">
+        <input type="submit" value="Pesquisar">
+    </form>
+
+    <!-- Aqui você pode exibir os resultados da pesquisa -->
+    <div id="search-results">
+        <!-- Os resultados da pesquisa serão exibidos aqui -->
+    </div>
+
+    <!-- Exemplo de código JavaScript para lidar com a pesquisa -->
+    <script>
+        document.querySelector('form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const keywords = document.getElementById('search').value;
+            // Aqui você pode adicionar código para processar as palavras-chave e buscar os resultados.
+            // Por exemplo, você pode fazer uma requisição AJAX para um servidor que retorne os resultados da pesquisa.
+
+            // Exemplo de exibição de resultados fictícios:
+            const searchResults = document.getElementById('search-results');
+            searchResults.innerHTML = '<h2>Resultados da Pesquisa:</h2>';
+            searchResults.innerHTML += '<p>Resultado 1: Informações relevantes para "' + keywords + '"</p>';
+            searchResults.innerHTML += '<p>Resultado 2: Mais informações sobre "' + keywords + '"</p>';
+        });
+    </script>
+</body>
+
+
+
     <section class="PROJ">
         <div>
             <h2>
