@@ -245,6 +245,6 @@ input[type=submit] {
     font-style:arial;
     font-size:18px;
     border:none;
-    height:32px;
-    width:260px;
+    height:1px;
+    width:8px;
   }
