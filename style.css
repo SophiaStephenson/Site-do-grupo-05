@@ -232,20 +232,19 @@ input[type=submit] {
 }
 
 #divBusca{
-    background-color:#2F4F4F;
+    background-color:#ffffff;
     border:solid 1px;
     border-radius:15px;
     width:300px;
   }
   
   #txtBusca{
-    float:left;
+    float: right;
     background-color:transparent;
     padding-left:5px;
-    font-style:italic;
+    font-style:arial;
     font-size:18px;
     border:none;
     height:32px;
     width:260px;
   }
-  
