@@ -232,15 +232,16 @@ input[type=submit] {
 }
 
 .teclado{
-    background-color: white; display: grid; gap: 10px;
+    background-color:#770f08; display: grid; gap: 10px;
     grid-template-columns: repeat(3,1fr); padding: 10px;
 }
  .tecla{
-    background-color: #000;color: aqua; padding: 30px;
+    background-color: #000;color: #770f08; padding: 30px;
+
  }
 
  .tecla.ativa,.tecla:active{
-    background-color:aqua; color: #000;outline: none;
+    background-color:#770f08; color: #000;outline: none;
  }
  .tecla.focus,.tecla:focus{
     outline: none; box-shadow: 1px 1px 10px white;
