@@ -9,7 +9,7 @@ let Contador = 0;
 
 while (Contador < 9) {
 ListaDeTeclas[1].onclick = tocaSomClap;
-Contador = +1
+Contador = Contador + 1;
 console.log(Contador);
 }
 
