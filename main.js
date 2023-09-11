@@ -4,4 +4,12 @@ function tocaSomClap () {
 
 
 const ListaDeTeclas = document.querySelectorAll('.tecla');
+
+let Contador = 0;
+
+while (Contador < 9) {
 ListaDeTeclas[1].onclick = tocaSomClap;
+Contador = 
+console.log(Contador);
+}
+
