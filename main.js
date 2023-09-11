@@ -4,3 +4,5 @@ function tocaSomClap () {
 
 document.querySelector('.toca-clap').onclick = tocaSomClap;
 
+const ListaDeTeclas = document.querySelectorAll('.tecla');
+
