@@ -8,7 +8,7 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 let Contador = 0;
 
 while (Contador < ListaDeTeclas.length) {
-ListaDeTeclas[Contador].onclick = tocar('#som_tecla_toim');
+ListaDeTeclas[Contador].onclick = tocar('#som-tecla-toim');
 Contador = Contador + 1;
 console.log(Contador);
 }
