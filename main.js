@@ -1,13 +1,13 @@
 function tocaSomClap () {
-  document.querySelector('#som-tecla-clap').play();  
+  document.querySelector(idElementoAudio).play();  
 }
 
 
-const ListaDeTeclas = document.querySelectorAll('.tecla');
+const ListaDeTeclas = document.querySelectorAll(idElementoAudio);
 
 let Contador = 0;
 
-while (Contador < 9) {
+while (Contador < ListaDeTeclas.length) {
 ListaDeTeclas[1].onclick = tocaSomClap;
 Contador = Contador + 1;
 console.log(Contador);
