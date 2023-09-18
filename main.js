@@ -1,4 +1,4 @@
-function tocaSomClap () {
+function tocaSomClap (idElementoAudio) {
   document.querySelector(idElementoAudio).play();  
 }
 
