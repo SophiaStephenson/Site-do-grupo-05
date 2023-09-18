@@ -3,7 +3,7 @@ function tocaSomClap (idElementoAudio) {
 }
 
 
-const ListaDeTeclas = document.querySelectorAll(idElementoAudio);
+const ListaDeTeclas = document.querySelectorAll('.tecla'):
 
 let Contador = 0;
 
