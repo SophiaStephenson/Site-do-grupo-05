@@ -6,9 +6,10 @@ function tocaSomClap (idElementoAudio) {
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 let Contador = 0;
+
 while (Contador < ListaDeTeclas.length) {
   const vitorroque = ListaDeTeclas[Contador].classList[1];
-const vitorroque2= `#som_${vitorroque}`;
+const vitorroque2= `#som-${vitorroque}`;
 
 console.log(vitorroque);
 console.log(vitorroque2);
