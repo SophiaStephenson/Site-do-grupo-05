@@ -14,7 +14,7 @@ console.log(vitorroque);
 console.log(vitorroque2);
 
 ListaDeTeclas[Contador].onclick = function () {
-  tocaSomClap('#som-tecla-toim');
+  tocaSomClap(vitorroque2);
 };
 
 Contador = Contador + 1;
