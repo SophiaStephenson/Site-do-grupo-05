@@ -12,7 +12,7 @@ ListaDeTeclas[Contador].onclick = function ()
   tocaSomClap('#som-tecla-toim');
 };
 
-const vitorroque2= `som_${classe}`;
+const vitorroque2= `som_${vitorroque}`;
 const vitorroque = ListaDeTeclas[Contador].classList[1];
 console.log(vitorroque);
 console.log(vitorroque2);
