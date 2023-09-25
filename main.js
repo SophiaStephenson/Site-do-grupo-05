@@ -14,12 +14,12 @@ const vitorroque2= `#som-${vitorroque}`;
 console.log(vitorroque);
 console.log(vitorroque2);
 
-ListaDeTeclas[contador].onclick = function () {
+ListaDeTeclas[Contadorontador].onclick = function () {
   tocaSomClap(vitorroque2);
 }
 
 Contador = Contador + 1;
-if (evento )
+if (evento.code === 'Space' ) {
 console.log(Contador);
 
 tecla.onkeydown= function () {
