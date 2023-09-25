@@ -7,15 +7,16 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 while (Contador < ListaDeTeclas.length) {
-ListaDeTeclas[Contador].onclick = function () 
-{
+  const vitorroque = ListaDeTeclas[Contador].classList[1];
+const vitorroque2= `som_${vitorroque}`;
+
+console.log(vitorroque);
+console.log(vitorroque2);
+
+ListaDeTeclas[Contador].onclick = function () {
   tocaSomClap('#som-tecla-toim');
 };
 
-const vitorroque2= `som_${vitorroque}`;
-const vitorroque = ListaDeTeclas[Contador].classList[1];
-console.log(vitorroque);
-console.log(vitorroque2);
 Contador = Contador + 1;
 console.log(Contador);
 }
