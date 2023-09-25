@@ -2,7 +2,6 @@ function tocaSomClap (idElementoAudio) {
   document.querySelector(idElementoAudio).play();  
 }
 
-
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 let Contador = 0;
@@ -16,9 +15,8 @@ console.log(vitorroque2);
 
 ListaDeTeclas[Contador].onclick = function () {
   tocaSomClap(vitorroque2);
-};
+}
 
 Contador = Contador + 1;
 console.log(Contador);
 }
-
