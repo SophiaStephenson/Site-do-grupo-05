@@ -14,15 +14,15 @@ const vitorroque2= `#som-${vitorroque}`;
 console.log(vitorroque);
 console.log(vitorroque2);
 
-ListaDeTeclas[Contador].onclick = function () {
+tecla.onclick = function () {
   tocaSomClap(vitorroque2);
 }
 
 Contador = Contador + 1;
 console.log(Contador);
 
-tecla.classList.add('ativa');
-tecla.onkeydown= function () {
+tecla.classList.add('ativa');{
+tecla.onkeydown= function () 
 
 }
 tecla.okeyup= function () {
