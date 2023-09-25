@@ -10,7 +10,7 @@ while (Contador < ListaDeTeclas.length) {
   const tecla= ListaDeTeclas [Contador]
   const vitorroque = ListaDeTeclas[Contador].classList[1];
 const vitorroque2= `#som-${vitorroque}`;
-
+}
 console.log(vitorroque);
 console.log(vitorroque2);
 
