@@ -10,8 +10,10 @@ while (Contador < ListaDeTeclas.length) {
 ListaDeTeclas[Contador].onclick = function () {
   tocaSomClap('#som-tecla-toim');
 };
+const vitorroque= 'som_${classe}';
 const vitorroque = ListaDeTeclas[Contador].classList[1];
 console.log(vitorroque);
+console.log(vitorroque)
 Contador = Contador + 1;
 console.log(Contador);
 }
