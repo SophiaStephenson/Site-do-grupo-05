@@ -20,10 +20,11 @@ ListaDeTeclas[Contadorontador].onclick = function () {
 
 Contador = Contador + 1;
 if (evento.code === 'Space' ) {
-console.log(Contador);
+console.log(evento);
 
 tecla.onkeydown= function () {
 tecla.classList.add('ativa');
+console.log(evento)
 }
 
 tecla.okeyup= function () {
