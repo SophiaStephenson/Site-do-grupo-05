@@ -24,7 +24,7 @@ if (evento.code === 'Space' ) {
 }
 tecla.onkeydown= function () {
 tecla.classList.add('ativa');
-console.log(evento);
+//console.log(evento);
 }
 
 tecla.okeyup= function () {
