@@ -22,7 +22,7 @@ Contador = Contador + 1;
 if (evento.code === 'Space' ) {
 
 }
-tecla.onkeydown= function () {
+tecla.onkeydown= function (evento) {
 
 tecla.classList.add('ativa');
 //console.log(evento);
