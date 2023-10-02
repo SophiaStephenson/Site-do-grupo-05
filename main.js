@@ -30,7 +30,7 @@ tecla.classList.add('ativa');
 
 }
 
-tecla.okeyup= function () {
+tecla.onkeyup = function () {
 tecla.classList.remove('ativa');
 }
 }
