@@ -249,6 +249,7 @@ input[type=submit] {
  .tecla.active:focus,.tecla.active:focus{
     box-shadow: 3px 3px 0 white;
  }
+
  .carousel-fade {
     .carousel-inner {
         .item {
@@ -280,9 +281,6 @@ input[type=submit] {
         z-index: 2;
     }
 }
-
-
-
 
 .carousel, 
 .carousel-inner, 
