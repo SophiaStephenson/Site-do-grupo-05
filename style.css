@@ -289,7 +289,7 @@ input[type=submit] {
 }
 
 .item:nth-child(1) {
-    background: #F8F8FF;
+    background: #1f1fbe;
 }
 
 .item:nth-child(2) {
