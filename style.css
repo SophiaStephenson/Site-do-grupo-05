@@ -47,7 +47,7 @@ header {
 
 .botaozao {
     list-style: none;
-    display: flex;
+    display:block;
 }
 
 .PROJ {
