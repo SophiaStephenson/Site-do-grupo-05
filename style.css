@@ -254,7 +254,7 @@ input[type=submit] {
 
 
  .dropdownmenu ul, .dropdownmenu li {
-	margin: 2;
+	margin: 20;
 	padding: 2;
 }
 .dropdownmenu ul {
@@ -270,7 +270,7 @@ input[type=submit] {
 .dropdownmenu a {
 	background: #30e630;
 	color: #FFFFFF;
-	display: flex;
+	display: ;
 	font: bold 12px/20px sans-serif;
 	padding: 10px 25px;
 	text-align: right;
