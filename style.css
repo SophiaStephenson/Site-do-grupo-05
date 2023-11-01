@@ -45,7 +45,7 @@ header {
     background-color: #884141;
 }
 
-.botaozinho {
+.botaozao {
     list-style: none;
     display: flex;
 }
@@ -302,8 +302,8 @@ li:hover ul#submenu {
 	width: 100%;
 }
 #submenu a:hover {
-	background: #DF4B05;
+	background: #df0560;
 }
 #submenu a {
-	background-color:#000000;
+	background-color:#770f08;
 }
