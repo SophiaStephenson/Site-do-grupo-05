@@ -254,8 +254,8 @@ input[type=submit] {
 
 
  .dropdownmenu ul, .dropdownmenu li {
-	margin: 20;
-	padding: 2;
+	margin: 0;
+	padding: 0;
 }
 .dropdownmenu ul {
 	background: rgb(247, 231, 7);
