@@ -245,27 +245,27 @@ input[type=submit] {
     box-shadow: 3px 3px 0 white;
  }
 
- .botaozao ul, .botaozao li {
+ .dropdownmenu ul, .dropdownmenu li {
 	margin: 0;
 	padding: 0;
 }
-.botaozao ul {
-	background: rgb(247, 231, 7);
+.dropdownmenu ul {
+	background: gray;
 	list-style: none;
 	width: 100%;
 }
-.botaozao li {
+.dropdownmenu li {
 	float: left;
 	position: relative;
 	width:auto;
 }
-.botaozao a {
-	background: #30e630;
+.dropdownmenu a {
+	background: #30A6E6;
 	color: #FFFFFF;
-	display: ;
+	display: block;
 	font: bold 12px/20px sans-serif;
 	padding: 10px 25px;
-	text-align: right;
+	text-align: center;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -273,7 +273,7 @@ input[type=submit] {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-.botaozao li:hover a {
+.dropdownmenu li:hover a {
 	background: #000000;
 }
 #submenu {
@@ -294,8 +294,8 @@ li:hover ul#submenu {
 	width: 100%;
 }
 #submenu a:hover {
-	background: #df0560;
+	background: #DF4B05;
 }
 #submenu a {
-	background-color:#770f08;
+	background-color:#000000;
 }
