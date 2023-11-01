@@ -159,11 +159,6 @@ input[type=submit] {
     border-radius: 30px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .slider {
     display: block;
     height: 293px;
@@ -250,24 +245,21 @@ input[type=submit] {
     box-shadow: 3px 3px 0 white;
  }
 
-
-
-
- .dropdownmenu ul, .dropdownmenu li {
+ .botaozao ul, .botaozao li {
 	margin: 0;
 	padding: 0;
 }
-.dropdownmenu ul {
+.botaozao ul {
 	background: rgb(247, 231, 7);
 	list-style: none;
 	width: 100%;
 }
-.dropdownmenu li {
+.botaozao li {
 	float: left;
 	position: relative;
 	width:auto;
 }
-.dropdownmenu a {
+.botaozao a {
 	background: #30e630;
 	color: #FFFFFF;
 	display: ;
@@ -281,7 +273,7 @@ input[type=submit] {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-.dropdownmenu li:hover a {
+.botaozao li:hover a {
 	background: #000000;
 }
 #submenu {
