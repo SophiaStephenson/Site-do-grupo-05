@@ -4,9 +4,10 @@ function tocaSomClap (idElementoAudio) {
 
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 
-let Contador = 0;
 
-for ++ Contador < ListaDeTeclas.length {
+for (Contador < ListaDeTeclas.length;
+  let Contador = 0;
+  Contador = Contador + 1; )  {
   const tecla =  ListaDeTeclas [Contador]
   const vitorroque = tecla.classList[1];
 const vitorroque2 = `#som-${vitorroque}`;
@@ -18,10 +19,7 @@ ListaDeTeclas[Contador].onclick = function () {
   tocaSomClap(vitorroque2);
 }
 
-Contador = Contador + 1;
- {
 
-}
 
 tecla.onkeydown= function (evento) {
   if (evento.code === 'Space' || evento.code === 'Enter')
