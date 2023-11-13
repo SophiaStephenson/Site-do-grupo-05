@@ -6,8 +6,8 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 
 for (Contador < ListaDeTeclas.length;
-  let Contador = 0;
-  Contador = Contador + 1; )  {
+  let (Contador) = 0;
+  Contador = (Contador + 1)  {
   const tecla =  ListaDeTeclas [Contador]
   const vitorroque = tecla.classList[1];
 const vitorroque2 = `#som-${vitorroque}`;
