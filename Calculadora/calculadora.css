@@ -23,6 +23,7 @@
     text-align: right;
     margin: 5px;
     font-size: 30px;
+    width: 90%;
   }
   
   .teclado {
@@ -46,19 +47,15 @@
     font-weight: bold;
     font-size: 15px;
   }
-}
 
 .igual
 .multiplicacao,
 .soma,
 .divisao,
-.subtracao
+.subtracao,
+.numero
 {
     font-size: 20px;
-    background-color: #e9ff70;
-  }
-  
-.numero, {
     background-color: #eaedef;
   }
   
