@@ -8,10 +8,9 @@
     <title> Projeto Robótica - Grupo 05 </title>
     <link rel="stylesheet" a href="style.css">
     <link rel="stylesheet" a href="programacao_style.css">
+    <link rel="stylesheet" a href="/Calculadora/calculadora.css">
     <link rel="stylesheet" a href="/Reponsividade/programaçãohtml.css">
-    <link rel="icon" href="imagens/5f21c434006cd.jpeg"
-
-<body>
+    <link rel="icon" href="imagens/5f21c434006cd.jpeg" <body>
     <header>
         <div class="header_img_text">
             <img class="cep" src="imagens/cep.png" alt="logo cep">
@@ -95,6 +94,53 @@
     <audio src="som/keyx.wav" id="som-tecla-tic"></audio>
     <audio src="som/keyc.wav" id="som-tecla-tom"></audio>
 
-    
+    <div id="calculadora">
+        <form name="form">
+            <h1 id='title'>Calculadora</h1>
+            <input type="text" class="vsaida" id="visor" name="visor">
+        </form>
+        <table id="teclado">
+            <td>
+                <input type="button" class="limpar" id="buttonC" onclick="zerar(0)" value="C">
+                <input type="button" class="botaoAux" id="backspace" onclick="backspace()" value="⌫">
+                <input type="button" class="botaoAux" onclick="porcentagem()" value="%">
+                <input type="button" class="divisao" id="divisao" onclick="operacao('/')" value="÷">
+            </td>
+            <tr>
+                <td>
+                    <input type="button" class='numero' onclick="preencher(7)" value="7">
+                    <input type="button" class='numero' onclick="preencher(8)" value="8">
+                    <input type="button" class='numero' onclick="preencher(9)" value="9">
+                    <input type="button" class="multiplicacao" onclick="operacao('*')" value="x">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class='numero' onclick="preencher(4)" value="4">
+                    <input type="button" class='numero' onclick="preencher(5)" value="5">
+                    <input type="button" class='numero' onclick="preencher(6)" value="6">
+                    <input type="button" class="subtracao" onclick="operacao('-')" value="-">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class='numero' onclick="preencher(1)" value="1">
+                    <input type="button" class='numero' onclick="preencher(2)" value="2">
+                    <input type="button" class='numero' onclick="preencher(3)" value="3">
+                    <input type="button" class="soma" onclick="operacao('+')" value="+">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="botaoAux" id="negativo" onclick="maisMenos()" value="+/-">
+                    <input type="button" class='numero' onclick="preencher(0)" value="0">
+                    <input type="button" class="botaoAux" id="ponto" onclick="ponto()" value=".">
+                    <input type="button" class="igual" onclick='calcular()' value="=">
+                </td>
+            </tr>
+        </table>
+    </div>
+
     <script src="main.js"></script>
-</body>
+    <script src="/Calculadora/calculadora.js"></script>
+    </body>
