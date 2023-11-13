@@ -32,3 +32,4 @@ tecla.onkeyup = function () {
 tecla.classList.remove('ativa');
 }
   }
+
