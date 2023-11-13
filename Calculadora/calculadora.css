@@ -1,13 +1,14 @@
 #calculadora {
     width: 340px;
-    height: 570px;
+    height: auto;
     background-color: #eaedef;
     margin: 4em auto;
+  padding: 1em;
     top: 20px;
     border-radius: 5px;
     position: relative;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 3px 1px 5px .2px rgb(213 213 213);
   }
   
   #resultado {
@@ -33,25 +34,28 @@
   .multiplicacao,
   .subtracao,
   .igual {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 53px;
     margin: 15px;
     float: left;
-    border-radius: 50%;
+    border-radius: 25%;
     border-width: 0;
     font-weight: bold;
     font-size: 15px;
   }
 
-.igual
+
+
+.igual,
+.botaoAux,
+.limpar,
 .multiplicacao,
 .soma,
 .divisao,
 .subtracao,
-.numero
-{
-    font-size: 20px;
-    background-color: #eaedef;
+.numero {
+    font-size: 18px;
+    background-color: #d4c9ff;
   }
   
   .numero,
