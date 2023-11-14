@@ -1,35 +1,24 @@
-function tocaSomClap (idElementoAudio) {
-  document.querySelector(idElementoAudio).play();  
+function tocar(idElementoAudio) {
+  document.querySelector(idElementoAudio).play();
 }
-
-const ListaDeTeclas = document.querySelectorAll('.tecla');
-
-
-for (Contador < ListaDeTeclas.length;
-  let (Contador) = 0;
-  Contador = (Contador + 1) ){
-  const tecla =  ListaDeTeclas [Contador]
-  const vitorroque = tecla.classList[1];
-const vitorroque2 = `#som-${vitorroque}`;
-
-//console.log(vitorroque);
-//console.log(vitorroque2);
-
-ListaDeTeclas[Contador].onclick = function () {
-  tocaSomClap(vitorroque2);
-}
+const ListaTeclas = document.querySelectorAll('.tecla');
 
 
-
-tecla.onkeydown= function (evento) {
-  if (evento.code === 'Space' || evento.code === 'Enter')
-tecla.classList.add('ativa');
-//console.log(evento);
-
-}
-
-tecla.onkeyup = function () {
-tecla.classList.remove('ativa');
-}
+for (let Contador = 0; Contador < ListaTeclas.length; Contador++) {
+  const botão = ListaTeclas[Contador];
+  const tecla = botão.classList[1];
+  const idAudio = `#som-${tecla}`;
+  botão.onclick = function () {
+      tocar(idAudio);
   }
 
+
+  botão.onkeydown = function (Evento) {
+      if (Evento.code === 'Space' || Evento.code === 'Enter') {
+          botão.classList.add('ativa');
+      }
+  }
+  botão.onkeyup = function () {
+      botão.classList.remove('ativa');
+  }
+}
